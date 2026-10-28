@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "sourceHash": "d617571c14853141e982439bef6326f8ec48138876bf99c9160f13e02ac4339c",
+  "checkedAt": "2026-10-28T05:14:36.598Z",
+  "screenshots": [
+    "evidence/market-hero.png",
+    "evidence/market-desktop.png",
+    "evidence/market-mobile.png",
+    "evidence/market-first-win.png",
+    "evidence/market-final-win.png",
+    "evidence/market-assessment-mobile.png"
+  ],
+  "checks": [
+    "Generated hero, merchant, lamp/cart/storm/badge atlas shown with clipped cells; original alpha retained",
+    "First trade completed: 3-lamp parcel, fast shipment, 2 turns, 8 coins, 3 stars",
+    "Stage 5 safe route loses at arrival 3 vs deadline 2; undo twice, protected parcel fast route wins at 2 with 9 coins",
+    "Final stage: sell protected 2-lamp parcel to fund two protected parcels (6 and 4); convoy wins at turn 5, coins 10",
+    "Reload restores stars 1:3,5:2,8:3 and 13 game actions including 2 undo records and before/after snapshots",
+    "390px first tutorial focuses method selector; field instructions immediately above input; first trade played to victory",
+    "Mobile scrollWidth 376 <= 390; desktop title/button/body computed Jua/Do Hyeon/Gowun Dodum",
+    "No browser console errors or warnings"
+  ],
+  "assessment": {
+    "codes": [
+      "9수04-01"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "export": true,
+    "mobile": true,
+    "details": "All 12 new tasks submitted. Wrong median corrected on second attempt and one helped mode task are excluded from independent credit. Counts 3/2/2/3, 13 attempts, 1 hint event. Synthetic student explanation and mock teacher verdict/note saved; reload and JSON export preview/blob filename checked. No real student data or official completion."
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "referenceGames": [
+      "forest",
+      "soinsu"
+    ],
+    "fonts": {
+      "title": "Jua",
+      "display": "Do Hyeon",
+      "body": "Gowun Dodum"
+    },
+    "checks": [
+      "Self-hosted fonts and licenses",
+      "390px inputs, data chips, Korean text and numbers readable",
+      "No horizontal overflow"
+    ]
+  },
+  "limitations": [
+    "No real learner fun or learning-effect study",
+    "Vercel Import and production URL confirmation pending",
+    "Gameplay evidence is separate from independent curriculum tasks"
+  ]
+}

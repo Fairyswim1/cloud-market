@@ -1,0 +1,340 @@
+{
+  "title": "구름 시장: 하늘빛 등불 상점",
+  "alternatives": [
+    {
+      "idea": "대푯값 정답 퀴즈",
+      "decision": "선택이 게임 상태에 영향을 주지 않아 제외"
+    },
+    {
+      "idea": "평균으로만 수요를 예측하는 가게",
+      "decision": "목적과 자료 종류를 구분하지 못하고 평균의 만능 오개념을 만들 수 있어 제외"
+    },
+    {
+      "idea": "자료별 등불 묶음과 공동 수레를 운영하는 시장",
+      "decision": "수량이 제작비를 실제 소모하고, 동일하게 타당한 최빈값도 자금 사정에 따라 전략적 결과가 달라 채택"
+    }
+  ],
+  "loop": "주문 목적·자료·보상 읽기 → 수량과 포장 결정 → 두 칸 재고 배분 → 배송길·도착 차례 선택 → 보상 재투자 → 장터 확장",
+  "differenceFromPrevious": "양변 연산 카드가 아니라 제작비를 선지출해 수량 묶음을 만들고, 두 개의 주문을 한 운송 행동에 싣는 거래·재고 게임. 선택한 대푯값은 관찰 기록이며 게임 수량 일치만으로 수학 이수를 판정하지 않음.",
+  "progression": [
+    {
+      "id": 1,
+      "title": "처음 여는 가게",
+      "newDecision": "자료를 정렬하고 가운데 수량을 실제 재고로 만들기",
+      "verifiedPlan": [
+        {
+          "kind": "make",
+          "order": 0,
+          "quantity": 3,
+          "packed": false
+        },
+        {
+          "kind": "ship",
+          "route": "fast"
+        }
+      ],
+      "result": {
+        "tick": 2,
+        "coins": 8,
+        "cargo": [],
+        "done": [
+          0
+        ],
+        "status": "won",
+        "mistakes": 0,
+        "losses": 0
+      }
+    },
+    {
+      "id": 2,
+      "title": "유난히 큰 주문",
+      "newDecision": "극단적인 값이 평균을 끌어올리는 상황 판단",
+      "verifiedPlan": [
+        {
+          "kind": "make",
+          "order": 0,
+          "quantity": 4,
+          "packed": false
+        },
+        {
+          "kind": "ship",
+          "route": "fast"
+        }
+      ],
+      "result": {
+        "tick": 2,
+        "coins": 9,
+        "cargo": [],
+        "done": [
+          0
+        ],
+        "status": "won",
+        "mistakes": 0,
+        "losses": 0
+      }
+    },
+    {
+      "id": 3,
+      "title": "작은 거래의 힘",
+      "newDecision": "평균·최빈값의 목적 구별과 거래 순서로 자금 확보",
+      "verifiedPlan": [
+        {
+          "kind": "make",
+          "order": 1,
+          "quantity": 2,
+          "packed": false
+        },
+        {
+          "kind": "ship",
+          "route": "fast"
+        },
+        {
+          "kind": "make",
+          "order": 0,
+          "quantity": 8,
+          "packed": false
+        },
+        {
+          "kind": "ship",
+          "route": "fast"
+        }
+      ],
+      "result": {
+        "tick": 4,
+        "coins": 7,
+        "cargo": [],
+        "done": [
+          1,
+          0
+        ],
+        "status": "won",
+        "mistakes": 0,
+        "losses": 0
+      }
+    },
+    {
+      "id": 4,
+      "title": "바람을 돌아가는 길",
+      "newDecision": "빠른 길의 도착 시각과 안전한 우회 비교",
+      "verifiedPlan": [
+        {
+          "kind": "make",
+          "order": 0,
+          "quantity": 4,
+          "packed": false
+        },
+        {
+          "kind": "ship",
+          "route": "safe"
+        }
+      ],
+      "result": {
+        "tick": 3,
+        "coins": 11,
+        "cargo": [],
+        "done": [
+          0
+        ],
+        "status": "won",
+        "mistakes": 0,
+        "losses": 0
+      }
+    },
+    {
+      "id": 5,
+      "title": "늦을 수 없는 약속",
+      "newDecision": "시간을 아끼기 위해 포장비를 지출",
+      "verifiedPlan": [
+        {
+          "kind": "make",
+          "order": 0,
+          "quantity": 3,
+          "packed": true
+        },
+        {
+          "kind": "ship",
+          "route": "fast"
+        }
+      ],
+      "result": {
+        "tick": 2,
+        "coins": 9,
+        "cargo": [],
+        "done": [
+          0
+        ],
+        "status": "won",
+        "mistakes": 0,
+        "losses": 0
+      }
+    },
+    {
+      "id": 6,
+      "title": "공동 1위의 선택",
+      "newDecision": "동등하게 타당한 대푯값 중 재고 비용을 고려해 선택",
+      "verifiedPlan": [
+        {
+          "kind": "make",
+          "order": 0,
+          "quantity": 2,
+          "packed": false
+        },
+        {
+          "kind": "ship",
+          "route": "fast"
+        },
+        {
+          "kind": "make",
+          "order": 1,
+          "quantity": 4,
+          "packed": false
+        },
+        {
+          "kind": "ship",
+          "route": "fast"
+        }
+      ],
+      "result": {
+        "tick": 4,
+        "coins": 5,
+        "cargo": [],
+        "done": [
+          0,
+          1
+        ],
+        "status": "won",
+        "mistakes": 0,
+        "losses": 0
+      }
+    },
+    {
+      "id": 7,
+      "title": "두 상자 한 수레",
+      "newDecision": "재고 두 칸을 활용해 합배송과 개별 배송 비교",
+      "verifiedPlan": [
+        {
+          "kind": "make",
+          "order": 0,
+          "quantity": 3,
+          "packed": false
+        },
+        {
+          "kind": "make",
+          "order": 1,
+          "quantity": 4,
+          "packed": false
+        },
+        {
+          "kind": "ship",
+          "route": "fast"
+        }
+      ],
+      "result": {
+        "tick": 3,
+        "coins": 13,
+        "cargo": [],
+        "done": [
+          0,
+          1
+        ],
+        "status": "won",
+        "mistakes": 0,
+        "losses": 0
+      }
+    },
+    {
+      "id": 8,
+      "title": "하늘빛 축제",
+      "newDecision": "대푯값 선택·자금 순환·포장·돌풍·합배송을 모두 결합",
+      "verifiedPlan": [
+        {
+          "kind": "make",
+          "order": 1,
+          "quantity": 2,
+          "packed": true
+        },
+        {
+          "kind": "ship",
+          "route": "fast"
+        },
+        {
+          "kind": "make",
+          "order": 0,
+          "quantity": 6,
+          "packed": true
+        },
+        {
+          "kind": "make",
+          "order": 2,
+          "quantity": 4,
+          "packed": true
+        },
+        {
+          "kind": "ship",
+          "route": "fast"
+        }
+      ],
+      "result": {
+        "tick": 5,
+        "coins": 10,
+        "cargo": [],
+        "done": [
+          1,
+          0,
+          2
+        ],
+        "status": "won",
+        "mistakes": 0,
+        "losses": 0
+      }
+    }
+  ],
+  "counterexamples": [
+    {
+      "stage": 2,
+      "naive": "항상 평균",
+      "result": "평균7 묶음은 가운데4 주문에 맞지 않아 제작비 소진과 반품",
+      "test": "always mean fails"
+    },
+    {
+      "stage": 3,
+      "naive": "항상 중앙값",
+      "result": "전체를 균등 분배하는 주문은 평균8 필요. 중앙값2는 거절",
+      "test": "always median fails"
+    },
+    {
+      "stage": 5,
+      "naive": "항상 안전한 길",
+      "result": "도착3은 마감2보다 늦음. 포장비2를 쓰고 빠른 길로 도착2",
+      "test": "always taking safe route fails"
+    },
+    {
+      "stage": 6,
+      "naive": "최빈값이면 아무 값이나 같은 결과",
+      "result": "최빈값2와5 모두 적합하지만5 선택 후 자금1만 남아 다음4 제작 불가",
+      "test": "two modal values"
+    },
+    {
+      "stage": 7,
+      "naive": "만들자마자 한 상자씩 배송",
+      "result": "두 번째 제작시각3에 미배송 주문 마감. 두 상자 모으면3에 함께 도착",
+      "test": "shipping one at a time"
+    }
+  ],
+  "tradeoffs": [
+    "4단계: 안전한 우회는 1차례 더 쓰고 포장비2 절약",
+    "5단계: 마감 때문에 포장비2 지출이 필수",
+    "6단계: 타당한 공동 최빈값 중 저렴한 묶음이 후속 거래 자금 보존",
+    "8단계: 작은 거래·포장·두 칸 합배송을 모두 결합"
+  ],
+  "funHypotheses": [
+    "맞는 수학 답 안에서도 거래 선택이 생긴다",
+    "반품과 돌풍을 되돌리며 더 나은 운송 순서를 찾는다"
+  ],
+  "limits": [
+    "실제 학생 대상 재미·학습효과 검증 아님",
+    "실제 수요 예측 모델 아님",
+    "어떤 맥락에서도 유일하게 옳은 대푯값이 있다고 주장하지 않음"
+  ],
+  "generatedImageCalls": 3
+}

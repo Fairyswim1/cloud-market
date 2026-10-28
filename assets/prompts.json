@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-28T05:11:22.094Z",
+  "calls": 3,
+  "assets": [
+    {
+      "file": "market.png",
+      "tool": "image_gen",
+      "prompt": "Create a polished wide 1536x1024 fantasy game background illustration for a Korean middle-school math strategy game called Cloud Market. A cozy floating sky-island marketplace at golden sunset, soft lavender clouds, copper and teal roofs, wooden market stalls, hanging glass lanterns, small stone bridges between islands, gentle storybook painterly detail. Foreground has an empty broad wooden counter and open spacious left-center for UI overlay, right side has inviting lantern workshop. No people, no writing, no numerals, no logos, no interface. Warm cream, deep teal, amber and lavender palette, charming refined tabletop adventure aesthetic.",
+      "transparent": false,
+      "roles": [
+        "background"
+      ]
+    },
+    {
+      "file": "merchant.png",
+      "tool": "image_gen",
+      "prompt": "Transparent-background cutout character sprite for Cloud Market, a refined storybook fantasy math strategy game. One full-body friendly red panda merchant wearing a deep teal waistcoat and cream apron, brass round goggles perched above eyes, holding a small glowing amber lantern and rolled order slips with no visible writing. Warm painterly illustration, soft edges but clean silhouette, elegant detail, cute yet suitable for middle-school students, three-quarter front view, entire tail and feet included with generous transparent margin. No background, no ground plane, no text, no numbers, no logo. Single centered character.",
+      "transparent": true,
+      "roles": [
+        "character"
+      ]
+    },
+    {
+      "file": "atlas.png",
+      "tool": "image_gen",
+      "prompt": "A square transparent-background 2 by 2 game asset atlas for Cloud Market. Four isolated fantasy game props, each wholly inside its own equal quadrant, very wide transparent gutters and margins, never crossing the central vertical or horizontal line. TOP LEFT: a glowing amber glass lantern with brass handle, the goods players make. TOP RIGHT: a small wooden sky delivery cart with blue fabric sail, three-quarter view, no person. BOTTOM LEFT: a compact mischievous violet storm cloud with a curled wind spiral and a lightning spark, the route hazard. BOTTOM RIGHT: an ornate golden star-shaped market badge on teal ribbon, the victory reward. Cohesive charming refined painterly storybook style, cream teal gold lavender palette, detailed clean silhouettes, no background, no grid lines, no text, no numerals, no UI. Each item centered at the center of its quadrant and maximum 34 percent of full image width and height.",
+      "transparent": true,
+      "roles": [
+        "interactive-prop",
+        "delivery-vehicle",
+        "obstacle",
+        "reward"
+      ]
+    }
+  ]
+}
