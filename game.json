@@ -4,20 +4,22 @@
   "grade": 1,
   "unit": "8-1 대푯값",
   "category": "자료와 가능성",
-  "description": "손님들의 자료로 등불 묶음을 정하고 거래 순서로 제작비를 모으세요. 포장비·돌풍·두 상자 합배송을 조합하는 8개 장터에서 목적에 맞는 대푯값을 사용합니다.",
+  "description": "손님들의 자료로 등불 묶음을 정하고 거래 순서로 제작비를 모으세요. 포장비·돌풍·두 상자 합배송을 조합하는 12개 장터에서 목적에 맞는 대푯값을 사용합니다.",
   "tags": [
     "중앙값·최빈값",
     "시장 운영",
     "합배송 전략"
   ],
-  "duration": "20–35분",
-  "stageCount": 8,
+  "duration": "30–50분",
+  "stageCount": 12,
   "assets": [
     "assets/market.png",
     "assets/merchant.png",
-    "assets/atlas.png"
+    "assets/atlas.png",
+    "assets/control-frame-v2.png",
+    "assets/round-marker-v2.png"
   ],
-  "version": "1.0.2",
+  "version": "1.1.0",
   "createdAt": "2026-10-28T05:11:29.264Z",
   "deploymentTarget": "vercel",
   "repository": "https://github.com/Fairyswim1/cloud-market",

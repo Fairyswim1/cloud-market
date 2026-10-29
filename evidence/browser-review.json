@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "d237bcf8d02120f38f26d85ee52a5cfeecbf8329e9a4c5585ac8e1e9bb3cb46d",
-  "checkedAt": "2026-10-29T07:09:40.266Z",
+  "sourceHash": "2d92a9413e70159f1f65fce7caad8d0adedb2c7bfe69da9168400304449276a6",
+  "checkedAt": "2026-10-29T08:36:33.774Z",
   "screenshots": [
     "evidence/market-hero.png",
     "evidence/market-desktop.png",
@@ -12,7 +12,10 @@
     "evidence/home-mobile.png",
     "evidence/cloud-market-sound-mobile.png",
     "evidence/tutorial-desktop.png",
-    "evidence/tutorial-mobile.png"
+    "evidence/tutorial-mobile.png",
+    "evidence/cloud-refresh-desktop.png",
+    "evidence/cloud-refresh-mobile.png",
+    "evidence/cloud-refresh-tutorial.png"
   ],
   "checks": [
     "Generated hero, merchant, lamp/cart/storm/badge atlas shown with clipped cells; original alpha retained",
@@ -22,7 +25,8 @@
     "Reload restores stars 1:3,5:2,8:3 and 13 game actions including 2 undo records and before/after snapshots",
     "390px first tutorial focuses method selector; field instructions immediately above input; first trade played to victory",
     "Mobile scrollWidth 376 <= 390; desktop title/button/body computed Jua/Do Hyeon/Gowun Dodum",
-    "No browser console errors or warnings"
+    "No browser console errors or warnings",
+    "2026-10-29: new generated themed controls, 12-round navigation, mobile widths and replay spotlight verified; newly added stages played to victory."
   ],
   "assessment": {
     "codes": [
@@ -61,8 +65,8 @@
     "Gameplay evidence is separate from independent curriculum tasks"
   ],
   "previousReview": {
-    "sourceHash": "4eadf9f903045082293a3ca828660a867f079deddb111a80ccbd5aba37b326b9",
-    "checkedAt": "2026-10-29T06:42:50.112Z"
+    "checkedAt": "2026-10-29T07:09:40.266Z",
+    "sourceHash": "d237bcf8d02120f38f26d85ee52a5cfeecbf8329e9a4c5585ac8e1e9bb3cb46d"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:26.583Z",
@@ -113,5 +117,35 @@
       "Frost repeated click cannot skip temperature lesson"
     ],
     "browserConsoleErrors": 0
+  },
+  "qualityRefresh": {
+    "status": "passed",
+    "stages": 12,
+    "newStageUI": [
+      {
+        "stage": 9,
+        "result": "장터에 불이 켜졌어요!\n★★★\n\n5차례 · 남은 제작비 5동전\n\n별: 모든 주문 +1 / 오배송·분실 없이 +1 / 도움·되돌리기 없이 +1. 별은 학습 이수 판정이 아니에요.\n\n다음 장터 →\n\n새로운 자료로 학습 확인 ↗\n\n돌아가기"
+      },
+      {
+        "stage": 10,
+        "result": "장터에 불이 켜졌어요!\n★★★\n\n5차례 · 남은 제작비 6동전\n\n별: 모든 주문 +1 / 오배송·분실 없이 +1 / 도움·되돌리기 없이 +1. 별은 학습 이수 판정이 아니에요.\n\n다음 장터 →\n\n새로운 자료로 학습 확인 ↗\n\n돌아가기"
+      },
+      {
+        "stage": 11,
+        "result": "장터에 불이 켜졌어요!\n★★★\n\n6차례 · 남은 제작비 12동전\n\n별: 모든 주문 +1 / 오배송·분실 없이 +1 / 도움·되돌리기 없이 +1. 별은 학습 이수 판정이 아니에요.\n\n다음 장터 →\n\n새로운 자료로 학습 확인 ↗\n\n돌아가기"
+      },
+      {
+        "stage": 12,
+        "result": "장터에 불이 켜졌어요!\n★★★\n\n7차례 · 남은 제작비 12동전\n\n별: 모든 주문 +1 / 오배송·분실 없이 +1 / 도움·되돌리기 없이 +1. 별은 학습 이수 판정이 아니에요.\n\n첫 장터로 →\n\n새로운 자료로 학습 확인 ↗\n\n돌아가기"
+      }
+    ],
+    "desktop": 1280,
+    "mobile": 390,
+    "mobileScrollWidth": 376,
+    "generatedButtons": "control-frame-v2.png",
+    "roundMarkers": "round-marker-v2.png",
+    "tutorial": "Replay introduction and first spotlight visually verified at 390px; guided gameplay/state logic unchanged",
+    "assessmentReuse": "Assessment source and UI unchanged. Previous independent/hint/retry/report/export checks retained; all automated tests rerun.",
+    "consoleErrors": 0
   }
 }
