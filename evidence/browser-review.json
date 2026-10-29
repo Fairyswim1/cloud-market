@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "sourceHash": "2d92a9413e70159f1f65fce7caad8d0adedb2c7bfe69da9168400304449276a6",
+  "sourceHash": "d6785ca7f0da9fd4b0778bc35a085c3aedf95ad8e7f6139eb3fcc9b78a5d867a",
   "checkedAt": "2026-10-29T08:36:33.774Z",
   "screenshots": [
     "evidence/market-hero.png",
@@ -147,5 +147,11 @@
     "tutorial": "Replay introduction and first spotlight visually verified at 390px; guided gameplay/state logic unchanged",
     "assessmentReuse": "Assessment source and UI unchanged. Previous independent/hint/retry/report/export checks retained; all automated tests rerun.",
     "consoleErrors": 0
+  },
+  "provenanceRemoval": {
+    "checkedAt": "2026-10-29T08:54:36.200Z",
+    "status": "passed",
+    "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
+    "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
   }
 }

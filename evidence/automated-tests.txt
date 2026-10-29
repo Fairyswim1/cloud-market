@@ -2,167 +2,167 @@ TAP version 13
 # Subtest: every advertised skill has three varied tasks per form; source pages are present
 ok 1 - every advertised skill has three varied tasks per form; source pages are present
   ---
-  duration_ms: 4.6455
+  duration_ms: 4.9719
   ...
 # Subtest: factor parsing rejects composites, one, malformed powers, code and unbounded powers
 ok 2 - factor parsing rejects composites, one, malformed powers, code and unbounded powers
   ---
-  duration_ms: 0.9553
+  duration_ms: 0.7462
   ...
 # Subtest: GCD and LCM result and factorization process are both required, including coprime pairs
 ok 3 - GCD and LCM result and factorization process are both required, including coprime pairs
   ---
-  duration_ms: 0.5079
+  duration_ms: 0.4908
   ...
 # Subtest: incorrect, assisted, and retry successes cannot produce independent credit
 ok 4 - incorrect, assisted, and retry successes cannot produce independent credit
   ---
-  duration_ms: 2.491
+  duration_ms: 2.4623
   ...
 # Subtest: new form supports remediation; exhausted forms do not mint fresh item ids
 ok 5 - new form supports remediation; exhausted forms do not mint fresh item ids
   ---
-  duration_ms: 0.2893
+  duration_ms: 0.2363
   ...
 # Subtest: independent evidence does not automatically grade explanations or formal completion
 ok 6 - independent evidence does not automatically grade explanations or formal completion
   ---
-  duration_ms: 1.0341
+  duration_ms: 0.6955
   ...
 # Subtest: plots reject swapped coordinates, missing points and extra points; blank is not zero
 ok 7 - plots reject swapped coordinates, missing points and extra points; blank is not zero
   ---
-  duration_ms: 0.4955
+  duration_ms: 0.4267
   ...
 # Subtest: comparison keys agree with independent arithmetic, including negative square roots
 ok 8 - comparison keys agree with independent arithmetic, including negative square roots
   ---
-  duration_ms: 0.477
+  duration_ms: 0.4046
   ...
 # Subtest: standard 9수04-01 has four skills, 12 tasks and 3 finite forms
 ok 9 - standard 9수04-01 has four skills, 12 tasks and 3 finite forms
   ---
-  duration_ms: 3.5337
+  duration_ms: 3.1958
   ...
 # Subtest: odd, even, decimal medians and both modes independently checked
 ok 10 - odd, even, decimal medians and both modes independently checked
   ---
-  duration_ms: 0.2895
+  duration_ms: 0.2709
   ...
 # Subtest: correct numeric answer with unsuitable choice or reason is rejected; blank is not zero
 ok 11 - correct numeric answer with unsuitable choice or reason is rejected; blank is not zero
   ---
-  duration_ms: 0.1942
+  duration_ms: 0.2028
   ...
 # Subtest: retry and help never become independent, explanation needs review and export retains evidence
 ok 12 - retry and help never become independent, explanation needs review and export retains evidence
   ---
-  duration_ms: 3.9249
+  duration_ms: 3.1373
   ...
 # Subtest: statistics: odd/even median, nonmutation, multiple and absent modes
 ok 13 - statistics: odd/even median, nonmutation, multiple and absent modes
   ---
-  duration_ms: 2.2868
+  duration_ms: 2.6816
   ...
 # Subtest: all twelve stages have successful legal plans; independently sorted/frequency targets match
 ok 14 - all twelve stages have successful legal plans; independently sorted/frequency targets match
   ---
-  duration_ms: 3.0434
+  duration_ms: 1.9846
   ...
 # Subtest: always mean fails outlier-centered order; always median fails equal sharing
 ok 15 - always mean fails outlier-centered order; always median fails equal sharing
   ---
-  duration_ms: 0.3349
+  duration_ms: 0.2404
   ...
 # Subtest: small sale funds large contract; buying large first is unaffordable without mutation
 ok 16 - small sale funds large contract; buying large first is unaffordable without mutation
   ---
-  duration_ms: 0.5443
+  duration_ms: 0.3827
   ...
 # Subtest: fast unprotected route loses cargo at arrival; safe route trades time for saving packaging
 ok 17 - fast unprotected route loses cargo at arrival; safe route trades time for saving packaging
   ---
-  duration_ms: 1.2153
+  duration_ms: 0.8545
   ...
 # Subtest: always taking safe route fails urgent order; paid packaging wins
 ok 18 - always taking safe route fails urgent order; paid packaging wins
   ---
-  duration_ms: 0.2559
+  duration_ms: 0.1814
   ...
 # Subtest: two modal values are mathematically valid but expensive option strands next contract
 ok 19 - two modal values are mathematically valid but expensive option strands next contract
   ---
-  duration_ms: 0.4468
+  duration_ms: 0.3018
   ...
 # Subtest: shipping one at a time misses shared deadline; two-slot convoy succeeds
 ok 20 - shipping one at a time misses shared deadline; two-slot convoy succeeds
   ---
-  duration_ms: 0.3156
+  duration_ms: 0.1852
   ...
 # Subtest: finale combines cash flow, both protected parcels and convoy; skipping one wrapper fails
 ok 21 - finale combines cash flow, both protected parcels and convoy; skipping one wrapper fails
   ---
-  duration_ms: 0.8602
+  duration_ms: 0.4856
   ...
 # Subtest: invalid quantity, duplicate order and empty shipment are harmless; full cargo blocked
 ok 22 - invalid quantity, duplicate order and empty shipment are harmless; full cargo blocked
   ---
-  duration_ms: 0.876
+  duration_ms: 0.6396
   ...
 # Subtest: 새 장터: 공동 최빈값의 비싼 묶음은 다음 제작비를 막는다
 ok 23 - 새 장터: 공동 최빈값의 비싼 묶음은 다음 제작비를 막는다
   ---
-  duration_ms: 0.3333
+  duration_ms: 0.266
   ...
 # Subtest: 새 장터: 매번 포장도 매번 빠른 길도 실패, 포장과 우회를 섞으면 승리
 ok 24 - 새 장터: 매번 포장도 매번 빠른 길도 실패, 포장과 우회를 섞으면 승리
   ---
-  duration_ms: 0.3072
+  duration_ms: 0.2519
   ...
 # Subtest: 12번째 축제: 마지막 주문까지 포장할 돈을 남겨야 한다
 ok 25 - 12번째 축제: 마지막 주문까지 포장할 돈을 남겨야 한다
   ---
-  duration_ms: 0.2584
+  duration_ms: 0.256
   ...
 # Subtest: muted effects never start; enable, play and mute stop active oscillators
 ok 26 - muted effects never start; enable, play and mute stop active oscillators
   ---
-  duration_ms: 2.4272
+  duration_ms: 2.7252
   ...
 # Subtest: preference survives new controller and test checks a generated waveform
 ok 27 - preference survives new controller and test checks a generated waveform
   ---
-  duration_ms: 77.1142
+  duration_ms: 84.7836
   ...
 # Subtest: blocked playback returns an error instead of falsely reporting enabled sound
 ok 28 - blocked playback returns an error instead of falsely reporting enabled sound
   ---
-  duration_ms: 0.5504
+  duration_ms: 0.5783
   ...
 # Subtest: muting while resume is pending cannot re-enable playback
 ok 29 - muting while resume is pending cannot re-enable playback
   ---
-  duration_ms: 0.3243
+  duration_ms: 0.3073
   ...
 # Subtest: unavailable storage does not prevent sound playback
 ok 30 - unavailable storage does not prevent sound playback
   ---
-  duration_ms: 0.3562
+  duration_ms: 0.3218
   ...
 # Subtest: first visit uses isolated practice state and leaves existing progress untouched
 ok 31 - first visit uses isolated practice state and leaves existing progress untouched
   ---
-  duration_ms: 3.193
+  duration_ms: 3.2422
   ...
 # Subtest: skip and replay are per game and replay cannot overwrite learning records
 ok 32 - skip and replay are per game and replay cannot overwrite learning records
   ---
-  duration_ms: 0.4995
+  duration_ms: 0.481
   ...
 # Subtest: storage denied can still skip without a redirect loop
 ok 33 - storage denied can still skip without a redirect loop
   ---
-  duration_ms: 0.252
+  duration_ms: 0.2549
   ...
 1..33
 # tests 33
@@ -172,4 +172,4 @@ ok 33 - storage denied can still skip without a redirect loop
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 220.2106
+# duration_ms 239.425
