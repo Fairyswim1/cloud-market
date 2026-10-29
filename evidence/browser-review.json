@@ -1,14 +1,15 @@
 {
   "status": "passed",
-  "sourceHash": "d617571c14853141e982439bef6326f8ec48138876bf99c9160f13e02ac4339c",
-  "checkedAt": "2026-10-28T05:14:36.598Z",
+  "sourceHash": "4ffcd28fbfe0bbbeb5c5aab71367652f1a3fafd14450878b2a81143f5bd01f70",
+  "checkedAt": "2026-10-29T05:59:26.583Z",
   "screenshots": [
     "evidence/market-hero.png",
     "evidence/market-desktop.png",
     "evidence/market-mobile.png",
     "evidence/market-first-win.png",
     "evidence/market-final-win.png",
-    "evidence/market-assessment-mobile.png"
+    "evidence/market-assessment-mobile.png",
+    "evidence/home-mobile.png"
   ],
   "checks": [
     "Generated hero, merchant, lamp/cart/storm/badge atlas shown with clipped cells; original alpha retained",
@@ -55,5 +56,19 @@
     "No real learner fun or learning-effect study",
     "Vercel Import and production URL confirmation pending",
     "Gameplay evidence is separate from independent curriculum tasks"
-  ]
+  ],
+  "previousReview": {
+    "sourceHash": "d617571c14853141e982439bef6326f8ec48138876bf99c9160f13e02ac4339c",
+    "checkedAt": "2026-10-28T05:14:36.598Z"
+  },
+  "homeNavigation": {
+    "checkedAt": "2026-10-29T05:59:26.583Z",
+    "status": "passed",
+    "destination": "https://math-game-arcade.vercel.app/",
+    "sameTabClickVerified": true,
+    "mobileWidth": 390,
+    "mobileLinkWithinViewport": true,
+    "screenshot": "evidence/home-mobile.png",
+    "scope": "Home navigation only; game and assessment logic unchanged"
+  }
 }
