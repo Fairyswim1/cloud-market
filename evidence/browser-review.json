@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "4eadf9f903045082293a3ca828660a867f079deddb111a80ccbd5aba37b326b9",
-  "checkedAt": "2026-10-29T06:42:50.112Z",
+  "sourceHash": "d237bcf8d02120f38f26d85ee52a5cfeecbf8329e9a4c5585ac8e1e9bb3cb46d",
+  "checkedAt": "2026-10-29T07:09:40.266Z",
   "screenshots": [
     "evidence/market-hero.png",
     "evidence/market-desktop.png",
@@ -10,7 +10,9 @@
     "evidence/market-final-win.png",
     "evidence/market-assessment-mobile.png",
     "evidence/home-mobile.png",
-    "evidence/cloud-market-sound-mobile.png"
+    "evidence/cloud-market-sound-mobile.png",
+    "evidence/tutorial-desktop.png",
+    "evidence/tutorial-mobile.png"
   ],
   "checks": [
     "Generated hero, merchant, lamp/cart/storm/badge atlas shown with clipped cells; original alpha retained",
@@ -59,8 +61,8 @@
     "Gameplay evidence is separate from independent curriculum tasks"
   ],
   "previousReview": {
-    "sourceHash": "4ffcd28fbfe0bbbeb5c5aab71367652f1a3fafd14450878b2a81143f5bd01f70",
-    "checkedAt": "2026-10-29T05:59:26.583Z"
+    "sourceHash": "4eadf9f903045082293a3ca828660a867f079deddb111a80ccbd5aba37b326b9",
+    "checkedAt": "2026-10-29T06:42:50.112Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:26.583Z",
@@ -82,8 +84,8 @@
     "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
   },
   "assessmentReuse": {
-    "reason": "Assessment question, scoring, storage, export and teacher review logic unchanged. Prior actual assessment evidence retained; zero-forest display title only renamed.",
-    "previousSourceHash": "4ffcd28fbfe0bbbeb5c5aab71367652f1a3fafd14450878b2a81143f5bd01f70"
+    "reason": "Assessment application is unchanged; tutorial storage is isolated memory. Prior independent assessment evidence retained.",
+    "previousSourceHash": "4eadf9f903045082293a3ca828660a867f079deddb111a80ccbd5aba37b326b9"
   },
   "usabilityRevision": {
     "status": "passed",
@@ -91,5 +93,25 @@
       "First order median 3 crafted and delivered, three stars",
       "Packing/weather/alternate route hidden before wind, visible at stage 4"
     ]
+  },
+  "tutorialRevision": {
+    "status": "passed",
+    "firstVisit": true,
+    "actualActionsToFirstWin": true,
+    "skip": true,
+    "replay": true,
+    "noAutomaticReplayAfterSeen": true,
+    "desktopTargetUncovered": true,
+    "mobileWidth": 390,
+    "mobileTargetUncovered": true,
+    "recordIsolation": "Unit tests prove existing game and assessment keys untouched; Number Forest in-progress stage 6 target and undo restored after replay/skip; Starlight guided coordinates have zero independent successes.",
+    "keyboard": "Shared Tab/Shift+Tab focus routing and Escape implemented; actual Tab into stone and Escape restoration verified in Number Forest.",
+    "negativeChecks": [
+      "Moon wrong part length does not advance",
+      "Cloud wrong representative value does not advance",
+      "Cloud Enter on quantity cannot craft before craft step",
+      "Frost repeated click cannot skip temperature lesson"
+    ],
+    "browserConsoleErrors": 0
   }
 }
