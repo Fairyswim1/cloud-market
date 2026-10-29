@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "4ffcd28fbfe0bbbeb5c5aab71367652f1a3fafd14450878b2a81143f5bd01f70",
-  "checkedAt": "2026-10-29T05:59:26.583Z",
+  "sourceHash": "4eadf9f903045082293a3ca828660a867f079deddb111a80ccbd5aba37b326b9",
+  "checkedAt": "2026-10-29T06:42:50.112Z",
   "screenshots": [
     "evidence/market-hero.png",
     "evidence/market-desktop.png",
@@ -9,7 +9,8 @@
     "evidence/market-first-win.png",
     "evidence/market-final-win.png",
     "evidence/market-assessment-mobile.png",
-    "evidence/home-mobile.png"
+    "evidence/home-mobile.png",
+    "evidence/cloud-market-sound-mobile.png"
   ],
   "checks": [
     "Generated hero, merchant, lamp/cart/storm/badge atlas shown with clipped cells; original alpha retained",
@@ -58,8 +59,8 @@
     "Gameplay evidence is separate from independent curriculum tasks"
   ],
   "previousReview": {
-    "sourceHash": "d617571c14853141e982439bef6326f8ec48138876bf99c9160f13e02ac4339c",
-    "checkedAt": "2026-10-28T05:14:36.598Z"
+    "sourceHash": "4ffcd28fbfe0bbbeb5c5aab71367652f1a3fafd14450878b2a81143f5bd01f70",
+    "checkedAt": "2026-10-29T05:59:26.583Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:26.583Z",
@@ -70,5 +71,25 @@
     "mobileLinkWithinViewport": true,
     "screenshot": "evidence/home-mobile.png",
     "scope": "Home navigation only; game and assessment logic unchanged"
+  },
+  "soundRevision": {
+    "status": "passed",
+    "browserOutputSignal": true,
+    "preferenceAfterReload": true,
+    "mute": true,
+    "mobileWidth": 390,
+    "overflowX": false,
+    "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
+  },
+  "assessmentReuse": {
+    "reason": "Assessment question, scoring, storage, export and teacher review logic unchanged. Prior actual assessment evidence retained; zero-forest display title only renamed.",
+    "previousSourceHash": "4ffcd28fbfe0bbbeb5c5aab71367652f1a3fafd14450878b2a81143f5bd01f70"
+  },
+  "usabilityRevision": {
+    "status": "passed",
+    "checks": [
+      "First order median 3 crafted and delivered, three stars",
+      "Packing/weather/alternate route hidden before wind, visible at stage 4"
+    ]
   }
 }
