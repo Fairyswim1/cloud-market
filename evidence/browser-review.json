@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "d6785ca7f0da9fd4b0778bc35a085c3aedf95ad8e7f6139eb3fcc9b78a5d867a",
-  "checkedAt": "2026-10-29T08:36:33.774Z",
+  "sourceHash": "d136cb2e7dfe1e7c9b4f154f9d838ed884f8790e67ae8d55f5db8f1dd20ed191",
+  "checkedAt": "2026-10-30T01:16:15.100Z",
   "screenshots": [
     "evidence/market-hero.png",
     "evidence/market-desktop.png",
@@ -15,7 +15,8 @@
     "evidence/tutorial-mobile.png",
     "evidence/cloud-refresh-desktop.png",
     "evidence/cloud-refresh-mobile.png",
-    "evidence/cloud-refresh-tutorial.png"
+    "evidence/cloud-refresh-tutorial.png",
+    "evidence/student-copy.png"
   ],
   "checks": [
     "Generated hero, merchant, lamp/cart/storm/badge atlas shown with clipped cells; original alpha retained",
@@ -153,5 +154,14 @@
     "status": "passed",
     "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
     "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
+  },
+  "previousCopyReview": {
+    "checkedAt": "2026-10-29T08:36:33.774Z",
+    "sourceHash": "d6785ca7f0da9fd4b0778bc35a085c3aedf95ad8e7f6139eb3fcc9b78a5d867a"
+  },
+  "studentCopyRevision": {
+    "reportOpened": true,
+    "proceduralExplanationRemoved": true,
+    "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
   }
 }
