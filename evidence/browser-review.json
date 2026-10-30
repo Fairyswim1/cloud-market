@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "d136cb2e7dfe1e7c9b4f154f9d838ed884f8790e67ae8d55f5db8f1dd20ed191",
-  "checkedAt": "2026-10-30T01:16:15.100Z",
+  "sourceHash": "4aa916cd6c61906114dfc57bb07f1c421f5537a17ab87c4364c03c6e01226eb6",
+  "checkedAt": "2026-10-30T06:17:05.402Z",
   "screenshots": [
     "evidence/market-hero.png",
     "evidence/market-desktop.png",
@@ -38,9 +38,10 @@
     "retry": true,
     "persistence": true,
     "report": true,
-    "export": true,
+    "export": false,
     "mobile": true,
-    "details": "All 12 new tasks submitted. Wrong median corrected on second attempt and one helped mode task are excluded from independent credit. Counts 3/2/2/3, 13 attempts, 1 hint event. Synthetic student explanation and mock teacher verdict/note saved; reload and JSON export preview/blob filename checked. No real student data or official completion."
+    "details": "All 12 new tasks submitted. Wrong median corrected on second attempt and one helped mode task are excluded from independent credit. Counts 3/2/2/3, 13 attempts, 1 hint event. Synthetic student explanation and mock teacher verdict/note saved; reload and JSON export preview/blob filename checked. No real student data or official completion.",
+    "jsonUiRemoved": true
   },
   "typography": {
     "status": "passed",
@@ -163,5 +164,27 @@
     "reportOpened": true,
     "proceduralExplanationRemoved": true,
     "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
+  },
+  "previousJsonUiReview": {
+    "checkedAt": "2026-10-30T01:16:15.100Z",
+    "sourceHash": "d136cb2e7dfe1e7c9b4f154f9d838ed884f8790e67ae8d55f5db8f1dd20ed191",
+    "export": true
+  },
+  "jsonUiRemoval": {
+    "status": "passed",
+    "checkedAt": "2026-10-30T06:16:46.888Z",
+    "scope": "JSON raw preview and download removed. Readable learning results and local progress storage retained. Gameplay, assessment grading and layout otherwise unchanged.",
+    "report": {
+      "id": "cloud-market",
+      "report": true,
+      "noJson": true,
+      "exportButtons": 0,
+      "errors": []
+    },
+    "commonSubmission": {
+      "submitted": true,
+      "result": "내 답: 방정식",
+      "persistedAfterReload": true
+    }
   }
 }
