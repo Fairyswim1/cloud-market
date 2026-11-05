@@ -1,0 +1,42 @@
+{
+  "title": "구름 위 산책",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "구름 위 산책",
+    "root": 67,
+    "bpm": 82,
+    "color": "wood",
+    "minor": false,
+    "motif": [
+      4,
+      7,
+      9,
+      7,
+      2,
+      4,
+      7,
+      0
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 82,
+      "seconds": 46.829251700680274,
+      "peak": 0.1983904407886602,
+      "rms": 0.047768905393698054,
+      "seamDelta": 0.0006899831774575295,
+      "sha256": "768b2750751017dff23d2b3f8aca51d72431c01d84db7c50f4b3a72a1cb7fc8c"
+    },
+    {
+      "mode": "energy",
+      "bpm": 106,
+      "seconds": 36.22639455782313,
+      "peak": 0.23077459158155397,
+      "rms": 0.05689925724234789,
+      "seamDelta": 0.0031567478331662666,
+      "sha256": "ee8fb066782ba2aeacb7129b0f71d0f9b42cd90737d2ee8136797fc80f549d64"
+    }
+  ]
+}
