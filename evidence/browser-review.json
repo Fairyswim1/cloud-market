@@ -1,11 +1,12 @@
 {
   "status": "passed",
   "checkedAt": "2026-10-30T07:51:41.871Z",
-  "sourceHash": "ef32046d442ccceb47c8ea145d85594252190ad52e00f252ac33ac966ddcefa5",
+  "sourceHash": "20e9f14dd36e27d7b2a4591597f0d30770a60fe2a33d8454854710dda3d40255",
   "screenshots": [
     "evidence/math-cloud-market-desktop.png",
     "evidence/math-cloud-market-mobile.png",
-    "evidence/math-cloud-market-assessment.png"
+    "evidence/math-cloud-market-assessment.png",
+    "evidence/first-visit-mobile.png"
   ],
   "checks": [
     "All stage starting layouts checked at 390px; desktop final-stage screenshot inspected.",
@@ -70,5 +71,17 @@
     "musicMenuInBounds": true,
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:44:43.124Z",
+    "id": "cloud-market",
+    "firstVisitOff": true,
+    "startedStep": "손님이 원하는 묶음은?",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "ef32046d442ccceb47c8ea145d85594252190ad52e00f252ac33ac966ddcefa5",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }
